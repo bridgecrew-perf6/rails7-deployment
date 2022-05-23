@@ -1,6 +1,6 @@
 lock "~> 3.17.0"
 
-server '34.235.88.164', port: 22, roles: [:web, :app, :db], primary: true
+server '54.196.144.86', port: 22, roles: [:web, :app, :db], primary: true
 
 set :assets_roles,    [:web, :app, :db]            # Defaults to [:web]
 set :repo_url,        'git@github.com:purevdalai/rails7-deployment.git'
