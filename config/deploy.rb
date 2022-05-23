@@ -10,7 +10,7 @@ set :user,            'ubuntu'
 
 set :rvm_type,          :user
 set :rvm_bin_path,      "$HOME/bin"
-set :rvm_ruby_version,  '3.1.1'
+set :rvm_ruby_version,  '3.1.0'
 set :passenger_in_gemfile, true
 set :passenger_rvm_ruby_version, fetch(:rvm_ruby_version)
 set :passenger_restart_with_touch, true
