@@ -14,6 +14,9 @@ gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
+gem 'dotenv-rails'
+gem 'ed25519', '~> 1.2', '>= 1.2.4'
+gem 'bcrypt_pbkdf', '~> 1.1'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
